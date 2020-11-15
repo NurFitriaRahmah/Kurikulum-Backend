@@ -1,0 +1,20 @@
+Program Pengoperasian_Microsoft_Word
+
+deklrasi :
+tidak ada nilai angka
+
+algoritma :
+LAKUKAN (masuk) => 'start menu windows'
+LAKUKAN (klik kiri) => 'Microsoft Word'
+variabel.ketik (LAKUKAN -tulis 'nama.')
+.ketik()
+
+KETIKA .ketik() selesai dilakukan
+		LAKUKAN (klik kiri) => 'menu Microsoft Word'
+		LAKUKAN (klik kiri) => 'save as'
+		LAKUKAN (ketik nama file) => 'biodata.xdoc'
+		LAKUKAN (klik kiri) => 'save'
+	/selesai
+
+LAKUKAN (pencarian) => (FITRI)
+LAKUKAN (lapor selesai) => 'biodata.xdoc'

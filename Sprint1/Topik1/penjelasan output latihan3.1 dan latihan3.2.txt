@@ -1,0 +1,40 @@
+var_dump($d+$e);
+int(5)
+--> karena perintah penjumlahan menimpa string '2' menjadi int,supaya bisa menghasilkan bilangan 5 integer.
+
+var_dump($e==$f);
+bool(true)
+-->karena $e dan $f punya nilai yang sama sehingga bernilai 'true'.
+
+var_dump($e===$f);
+bool(false)
+-->karena $e berbentuk string dan $f berbentuk integer,perintah '===' menuntut nilai dan jenis variabel yang sama.
+
+var_dump($g);
+NULL
+-->karena $g punya nilai null.
+
+var_dump((bool)$g);
+bool(false)
+-->karena dalam variabel boolean false punya nilai 0.
+
+var_dump((int)$g);
+int(0)
+-->karena $g punya integer dengan nilai 0.
+
+
+var_dump(true&&false);
+bool(false)
+-->karena '&&' mengharuskan kedua kondisinya dalam keadaan 'true',jika salah satu kondisinya dalam keadaan 'false',maka tidak akan menghasilkan jawaban 'true'.
+
+var_dump(true||false);
+bool(true)
+-->karena '||' tidak mengharuskan kedua kondisinya dalam keadaan 'true' untuk meghasilkan jawaban 'true'
+
+var_dump(false||false);
+bool(false)
+-->karena salah satu kondisi di dalamnya tidak ada yang bernilai 'true'.
+
+var_dump(!false);
+bool(true)
+-->karena '!' punya arti "tidak sama dengan",sedangkan "tidak sama dengan" true adalah false.
