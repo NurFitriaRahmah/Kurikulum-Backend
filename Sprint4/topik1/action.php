@@ -1,6 +1,6 @@
 <?php
 $nama = $_POST['nama_barang'];
-$harga = $_POST['harga'];
+$harga = $_POST['harga_barang'];
 
 echo $nama;
 echo "<br>";
