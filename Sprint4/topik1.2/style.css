@@ -1,0 +1,36 @@
+body{
+    background:floralwhite;
+}
+
+#form {
+    background:aquamarine;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px black;
+    
+    margin: 50px auto;
+    width: 300px;
+    padding: 10px 20px;
+    }
+
+h3{
+  color: black;
+}
+
+#tambah{
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 75%;
+    padding: 10px 20px;
+}
+
+table, th, td {
+    border: 1px solid seagreen;
+}
+tr:nth-child(even)
+{
+  background-color: aquamarine;
+
+}
