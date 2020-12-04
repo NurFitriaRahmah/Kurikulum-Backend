@@ -1,0 +1,9 @@
+CREATE DATABASE crud;
+USE crud;
+CREATE TABLE login(
+    id INT PRIMARY KEY AUTO_INCREMENT ,
+    user VARCHAR(50) NOT NULL ,
+    PASSWORD VARCHAR(50) 
+);
+INSERT INTO login(user, password)
+VALUES ('fitria', 12345678);
