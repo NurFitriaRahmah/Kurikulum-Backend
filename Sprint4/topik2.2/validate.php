@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $error = 'Username atau Password Salah !!';
+  $error = '<h2><center>Username atau Password Salah !!</center></h2>';
   if (isset($_POST['login'])){
       $user = $_POST['user'];
       $pass = $_POST['pass'];
@@ -22,3 +22,21 @@
     echo $error;
   }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanpa data user</title>
+</head>
+<body>
+  <br>
+  <a href="login.php">
+    <center>
+     <input type="submit" name="login" value="Kembali"><h1></h1>
+    </center>
+  </a>
+  <br>
+</body>
+</html>
