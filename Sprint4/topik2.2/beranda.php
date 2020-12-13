@@ -1,6 +1,12 @@
 <?php
+  session_start();
+
   require_once("koneksi.php");
-  
+
+  if($_SESSION['status']!="login"){
+    header("Location: login.php");
+  }
+
   $query ="SELECT * FROM data_barang";
   $data = mysqli_query($konek, $query);
 

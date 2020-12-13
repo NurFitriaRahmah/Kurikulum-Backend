@@ -1,5 +1,11 @@
 <?php
+session_start();
+
 require_once("koneksi.php");
+
+if($_SESSION['status']!="login"){
+  header("Location: login.php");
+}
 
 $id = $_GET['id'];
 $query = "DElETE FROM data_barang WHERE id =$id";

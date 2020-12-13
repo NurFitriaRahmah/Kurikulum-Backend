@@ -1,6 +1,8 @@
 <?php
   session_start();
-  $error = '<h2><center>Username atau Password Salah !!</center></h2>';
+
+  require_once("koneksi.php");
+
   if (isset($_POST['login'])){
       $user = $_POST['user'];
       $pass = $_POST['pass'];
@@ -16,10 +18,10 @@
         $_SESSION ['status'] = "login";
         header("Location: beranda.php");
     }else{
-        echo $error;
+      header("Location: login.php");
     }
   }else{
-    echo $error;
+    header("Location: login.php");
   }
 ?>
 

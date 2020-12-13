@@ -1,5 +1,12 @@
 <?php
+session_start();
+
 require_once("koneksi.php");
+
+if($_SESSION['status']!="login"){
+    header("Location: login.php");
+  }
+
 if(isset($_POST['submit'])){
    $kode = $_POST['kode'];
    $nama = $_POST['nama'];
