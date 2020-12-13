@@ -3,10 +3,6 @@ session_start();
 
 require_once("koneksi.php");
 
-if($_SESSION['status']="login"){
-  header("Location: beranda.php");
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
