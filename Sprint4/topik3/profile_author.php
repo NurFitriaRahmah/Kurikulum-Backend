@@ -5,7 +5,7 @@ class ProfileAuthor{
     public function profileauthor(){
         if($_SESSION['status']="login"){
             ?>
-            <h3><a href="index.php">Home</a> | <a href="index_author.php">Buat Artikel</a> | <a href="index.php">Keluar</a></h3>
+            <h3><a href="index_author.php">Kembali</a> | <a href="index_author.php">Buat Artikel</a> | <a href="logout.php">Keluar</a></h3>
             <hr>
             <h1>Profile</h1>
             <p>

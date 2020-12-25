@@ -15,7 +15,7 @@
         <h3>
             <a href="profile_author.php">Profile</a> |
             <a href="blog_addpost.php">Buat Artikel</a> | 
-            <a href="index.php">Keluar</a>
+            <a href="logout.php">Keluar</a>
         </h3> 
         <?php
     }else{

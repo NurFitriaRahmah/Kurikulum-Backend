@@ -5,7 +5,7 @@ class Profile{
     public function profile(){
         if( isset($_SESSION['status']) ){
             ?>
-            <h3><a href="index.php">Home</a> | <a href="index_author.php">Halaman Author</a> | <a href="logout.php">Keluar</a></h3>
+            <h3><a href="index.php">Beranda</a> | <a href="index_author.php">Halaman Author</a> | <a href="logout.php">Keluar</a></h3>
             <hr>
             <h1>Profile</h1>
             <p>

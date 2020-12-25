@@ -21,7 +21,7 @@ class AuthBlog extends Config{
                     <div style="background-color:white; border: 1px solid #000; padding: 5%; margin-top: 3%">
                         <h3><?php echo $blog['title'] ?></h3>
                         <small>
-                            <h4>Kategori: <i><?php echo $blog['kategori'] ?></i></h4>
+                            <h4><i>Kategori: <?php echo $blog['kategori'] ?></i></h4>
                         </small>
                         <hr>
                         <p><?php echo $blog['content'] ?></p>
