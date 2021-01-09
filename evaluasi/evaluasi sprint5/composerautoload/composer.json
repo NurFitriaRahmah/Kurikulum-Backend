@@ -1,0 +1,16 @@
+{
+    "name": "fitria/composerautoload",
+    "description": "bangun datar 2",
+    "authors": [
+        {
+            "name": "Fitri",
+            "email": "nurfitria.rahmah@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bangundatar2\\": "bangundatar2/"
+        }
+    }
+}
